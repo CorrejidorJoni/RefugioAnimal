@@ -10,14 +10,16 @@
 $color-nav: rgb(198, 212, 255);
 $color-footer: rgb(159,93,52);
 
-#fondobody{
-    background-image: url(https://img.freepik.com/vector-gratis/fondo-lunares-vector-diseno-estetico_53876-143523.jpg?w=2000);
+body{
+    max-width: 100%;
+    overflow-x: hidden;
 }
+
 // HEADER //
 .headercontainer{
         /* personalizacion logo */
         background-image: url(../img/dogs-5921796_960_720.webp);
-        background-color: $color-nav;
+        background-color: rgb(128, 237, 153);
         background-size: contain;
         background-repeat: no-repeat;
         background-position:left; 
@@ -29,6 +31,7 @@ $color-footer: rgb(159,93,52);
 // MAIN //
 
 .title{
+    background-color: rgb(34, 87, 122);
     padding: 25px;
     width: 100%;
     text-align: center;
@@ -37,6 +40,14 @@ $color-footer: rgb(159,93,52);
        
        }
 }
+#coloraz{
+    background-color: rgb(34, 87, 122);
+}
+
+.colorletras{
+    color: white;
+}
+
 
 h1{
     animation-duration: 10s;
@@ -59,9 +70,7 @@ h1{
     text-align: center;
     .diseniotit{
         text-decoration:underline;
-        h2{
-
-        }
+       
     }
 }
 
@@ -71,7 +80,7 @@ h1{
 }
 
 .bordercolor{
-    background-color: $color-nav;
+    background-color: rgb(199, 249, 204);
     align-items: center;
    
 }
@@ -86,7 +95,7 @@ h1{
 // FOOTER //
 
 .colorfooter{
-    background-color: $color-footer;
+    background-color: rgb(128, 237, 153);
     
         
 } 
