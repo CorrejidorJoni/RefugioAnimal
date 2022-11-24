@@ -16,6 +16,12 @@ body{
 }
 
 // HEADER //
+header{
+    position: fixed;
+        z-index: 1;
+        top: 0;
+}
+
 .headercontainer{
         /* personalizacion logo */
         background-image: url(../img/dogs-5921796_960_720.webp);
@@ -24,9 +30,7 @@ body{
         background-repeat: no-repeat;
         background-position:left; 
         height: 80px; 
-        position: fixed;
-        z-index: 1;
-        top: 0;
+        
         
     
 }
