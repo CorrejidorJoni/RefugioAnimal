@@ -1,0 +1,131 @@
+/* Config pagina */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#fondobody {
+  background-image: url(https://img.freepik.com/vector-gratis/fondo-lunares-vector-diseno-estetico_53876-143523.jpg?w=2000);
+}
+
+.headercontainer {
+  /* personalizacion logo */
+  background-image: url(../img/dogs-5921796_960_720.webp);
+  background-color: rgb(198, 212, 255);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+  height: 80px;
+}
+
+.title {
+  padding: 25px;
+  width: 100%;
+  text-align: center;
+}
+.title .diseniotitulo {
+  text-decoration: overline;
+}
+
+h1 {
+  animation-duration: 10s;
+  animation-name: aparecer;
+  animation-iteration-count: infinite;
+}
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.title {
+  padding: 25px;
+  width: 100%;
+  text-align: center;
+}
+.title .diseniotit {
+  text-decoration: underline;
+}
+.card {
+  padding: 10px;
+  margin: 20px;
+}
+
+.bordercolor {
+  background-color: rgb(198, 212, 255);
+  align-items: center;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+}
+
+.colorfooter {
+  background-color: rgb(159, 93, 52);
+}
+
+.disenioicon {
+  padding: 20px;
+  align-items: center;
+}
+.disenioicon .icons {
+  width: 100px;
+  height: 40px;
+}
+
+.margfo {
+  margin-top: 50px;
+}
+.margfo .titulofooter {
+  text-align: center;
+  margin-top: 10px;
+  height: 100px;
+}
+.margfo .titulofooter .diseniofrase {
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
+}
+
+.diseniodesign {
+  padding: 5px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+#fondobody {
+  background-image: url(https://img.freepik.com/vector-premium/fondo-patron-puntos-colores-lunares-sobre-fondo-blanco_391563-183.jpg);
+}
+
+.flex-q {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.flex-q .imgq {
+  margin-top: 10px;
+}
+
+.flex2 {
+  display: flex;
+  justify-content: center;
+}
+
+.bgform {
+  background-color: rgb(198, 212, 255);
+}
+
+.marginubi {
+  margin-top: 80px;
+}
+
+.margfo {
+  margin-top: 50px;
+}
+
+/*# sourceMappingURL=estilos.css.map */
