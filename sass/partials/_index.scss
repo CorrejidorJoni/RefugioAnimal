@@ -16,20 +16,16 @@ body{
 }
 
 // HEADER //
-header{
-    position: sticky;
-        z-index: 1;
-        top: 0;
-}
+
 
 .headercontainer{
         /* personalizacion logo */
-        background-image: url(../img/dogs-5921796_960_720.webp);
+        background-image: url(../../img/dogs-5921796_960_720.webp);
         background-color: rgb(128, 237, 153);
         background-size: contain;
         background-repeat: no-repeat;
         background-position:left; 
-        height: 80px; 
+         
         
         
     
