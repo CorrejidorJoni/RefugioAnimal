@@ -12,7 +12,7 @@ body {
 
 .headercontainer {
   /* personalizacion logo */
-  background-image: url(../../img/dogs-5921796_960_720.webp);
+  background-image: url(https://cdn.pixabay.com/photo/2021/01/16/11/13/dogs-5921796_960_720.png);
   background-color: rgb(128, 237, 153);
   background-size: contain;
   background-repeat: no-repeat;
