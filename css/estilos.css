@@ -108,6 +108,18 @@ h1 {
   margin-top: 40px;
 }
 
+.color-insta {
+  color: rgb(225, 48, 108);
+}
+
+.color-fb {
+  color: rgb(66, 103, 178);
+}
+
+.color-yt {
+  color: rgb(255, 0, 0);
+}
+
 .flex-q {
   display: flex;
   flex-direction: column;
@@ -144,6 +156,10 @@ h1 {
 
 .widthmap iframe {
   width: 70%;
+}
+
+.color-text {
+  color: white;
 }
 
 /*# sourceMappingURL=estilos.css.map */
