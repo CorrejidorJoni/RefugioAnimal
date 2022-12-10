@@ -144,6 +144,12 @@ h1 {
   background-color: rgb(128, 237, 153);
 }
 
+.cardp {
+  padding: 10px;
+  margin: 20px;
+  height: 420px;
+}
+
 .bgform {
   background-color: rgb(199, 249, 204);
 }
