@@ -63,6 +63,9 @@ h1 {
 .card {
   padding: 10px;
   margin: 20px;
+}
+
+.tamcard {
   height: 550px;
 }
 
@@ -129,20 +132,21 @@ h1 {
 .flex-q {
   display: flex;
   flex-direction: column;
-  justify-content: center;
 }
 .flex-q .imgq {
-  margin-top: 10px;
+  margin-top: 2px;
 }
 
 .flex2 {
   display: flex;
   justify-content: center;
+  justify-items: center;
 }
 
 .cardq {
   padding: 10px;
   margin: 20px;
+  height: 550px;
 }
 
 .bgtexto {
