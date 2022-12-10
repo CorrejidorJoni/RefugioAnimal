@@ -6,9 +6,7 @@
     
 }
 
-// Variables //
-$color-nav: rgb(198, 212, 255);
-$color-footer: rgb(159,93,52);
+
 
 body{
     max-width: 100%;
@@ -77,6 +75,14 @@ h1{
 .card{
     padding: 10px;
     margin: 20px;
+    height: 550px;
+}
+
+
+
+.scroll {
+    max-height: 400px;
+    overflow-y: auto;
 }
 
 .bordercolor{
@@ -88,6 +94,7 @@ h1{
  .flex{
     display: flex;
     justify-content:center;
+    
     
    
 }

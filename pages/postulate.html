@@ -7,10 +7,14 @@
     <meta name="keywords" content="ADOPCION, POTULAR, POSTULATE, PERRO, GATO, CACHORRO, NUEVA OPORTUNIDAD, PERRO ADULTO">
     <meta name="description" content="Animate a sumarte a nuestro staff. Todo grano de arena ayuda a seguir creciendo">
     <title>Territorio animal - Postulate</title>
+
+    <!-- FAVICON -->
     <link rel="shortcut icon" href="https://cdn.pixabay.com/photo/2021/01/16/11/13/dogs-5921796_960_720.png" type="image/x-icon">
-    <!-- Bootstrap -->
+
+    <!-- BOOTSTRAP -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <!-- css -->
+
+    <!-- CSS -->
     <link rel="stylesheet" href="../css/estilos.css">
 </head>
 <body>
@@ -64,18 +68,19 @@
         <div class="row">
           <div class="col-lg-12 col-md-12 col-sm-12"></div>
           <div class="color-text">
-            <h2 >Sumate a la Red de Hogares de Tránsito de TERRITORIO ANIMAL
+            <h2 >Sumate a la Red de Hogares de Tránsito y Adopción de TERRITORIO ANIMAL
              </h2>
-             <h3 >Requisitos:</h3>
+             <h3 class="mt-4">Requisitos:</h3>
              <h4>
-              <ul >
-                <li>Vivir en Capital Federal o conurbano bonaerense (Buenos Aires)</li>
-                <li>No tener otros cachorros en la vivienda.</li>
-                <li>Tiempo mínimo de estadía: 2 semanas.</li>
+              <ul class="mt-4">
+                <li>Vivir en Capital Federal o conurbano bonaerense. (*)</li>
+                <li>No tener otros cachorros en la vivienda. (dependiendo del caso, no excluyente)</li>
+                <li>Tiempo mínimo de estadía: 2 semanas. (*))</li>
 
               </ul>
              </h4>
-             <h5>TA se hace cargo de todos los gastos durante el período de permanencia de los animales en el hogar.</h5>
+             <h5 class="mt-4">TA se hace cargo de todos los gastos durante el período de permanencia de los animales en el hogar.</h5>
+             <h6 class="margintransito">* Requisito requerido para la opción TRÁNSITO</h6>
               
              
               
@@ -94,17 +99,14 @@
                   <label for="inputEmail4" class="form-label">Email</label>
                   <input type="email" class="form-control" id="inputEmail4">
                 </div>
-                <div class="col-md-6">
-                  <label for="inputPassword4" class="form-label">Clave</label>
-                  <input type="password" class="form-control" id="inputPassword4">
-                </div>
+                
                 <div class="col-12">
                   <label for="inputAddress" class="form-label">Domicilio</label>
-                  <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                  <input type="text" class="form-control" id="inputAddress" >
                 </div>
                 <div class="col-12">
                   <label for="inputAddress2" class="form-label">Entre calles</label>
-                  <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                  <input type="text" class="form-control" id="inputAddress2" >
                 </div>
                 <div class="col-md-6">
                   <label for="inputCity" class="form-label">Ciudad</label>
@@ -114,7 +116,8 @@
                   <label for="inputState" class="form-label">Provincia</label>
                   <select id="inputState" class="form-select">
                     <option selected>Buenos Aires</option>
-                    <option>...</option>
+                    <option>Córdoba</option>
+                    <option>Santa fé</option>
                   </select>
                 </div>
                 <div class="col-md-2">
@@ -122,10 +125,26 @@
                   <input type="text" class="form-control" id="inputZip">
                 </div>
                 <div class="col-12">
+                  <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
                   <div class="form-check">
-                    <input class="form-check-input" type="checkbox" id="gridCheck">
-                    <label class="form-check-label" for="gridCheck">
-                      Validar
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+                    <label class="form-check-label" for="flexCheckIndeterminate">
+                      Tránsito
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+                    <label class="form-check-label" for="flexCheckIndeterminate">
+                      Adopción
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+                    <label class="form-check-label" for="flexCheckIndeterminate">
+                      Voluntariado
                     </label>
                   </div>
                 </div>

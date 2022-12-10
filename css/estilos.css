@@ -63,6 +63,12 @@ h1 {
 .card {
   padding: 10px;
   margin: 20px;
+  height: 550px;
+}
+
+.scroll {
+  max-height: 400px;
+  overflow-y: auto;
 }
 
 .bordercolor {
@@ -160,6 +166,10 @@ h1 {
 
 .color-text {
   color: white;
+}
+
+.margintransito {
+  margin-top: 50px;
 }
 
 /*# sourceMappingURL=estilos.css.map */
